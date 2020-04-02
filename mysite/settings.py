@@ -124,3 +124,5 @@ PROJECT_ROOT = os.path.dirname(BASE_DIR)
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+
+LOGIN_REDIRECT_URL = '/'
